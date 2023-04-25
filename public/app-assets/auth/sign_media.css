@@ -1,0 +1,66 @@
+/*responsive start*/
+
+/*---max-width (991px)---*/
+@media (max-width:991px) {
+    .none{
+        display: none;
+    }
+    .sign_btn {
+        margin-top: 0 !important;
+    }
+    .social_media {
+        margin-top: 0;
+    }
+    .head_text {
+        margin-top: 63px;
+    }
+    .logo_part img {
+        width: 30%;
+    }
+    .head_text h3 {
+        font-size: 40px;
+    }
+    .signin_part {
+        width: 100%;
+    }
+
+}
+/*---max-width (768px)---*/
+@media (max-width:768px){
+    .none{
+        display: none;
+    }
+    .signin_part {
+        width: 100%;
+    }
+}
+
+
+/*---max-width (575px)---*/
+@media (max-width:575px) {
+    .signin_part {
+        width: 100%;
+    }
+    .head_text {
+        margin-top: 40px;
+    }
+}
+
+/*---max-width (414px)---*/
+@media (max-width:414px) {
+    .mail_input_signin {
+        width: 334px;
+    }
+    .logo_part img {
+        width: 40%;
+    }
+    .option_signin {
+        column-gap: 109px;
+    }
+    .media1 a img {
+        width: 42%;
+    }
+    .option_signin {
+        column-gap: 93px;
+    }
+}

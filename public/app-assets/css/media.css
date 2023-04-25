@@ -1,0 +1,300 @@
+@media(max-width:1200px){
+    .full_con_div .same_div {
+        padding: 15px 0;
+    }
+    .time_part_insta {
+        padding: 9px 14px;
+    }
+    .total_div_insta {
+        width: 100%;
+        padding: 50px 30px;
+    }
+    .time_sec_insta {
+        top: 47%;
+        left: 1%;
+    }
+}
+
+
+@media(max-width:991px){
+    .total_header{
+        position: relative;
+    }
+    .headerClose a {
+        width: 26px;
+        height: 26px;
+        color: #1e1e1e;
+        font-size: 16px;
+        border: 1px solid #999;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        border-radius: 50px;
+    }
+    .headerClose {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: block;
+    }
+    .total_header ul .nav_special_list{
+        margin-top: 50px;
+    }
+    .total_header ul {
+        column-gap: 8px;
+        position: fixed;
+        width: 60%;
+        /* max-width: 400px; */
+        height: 100%;
+        background: rgb(0, 0, 0);
+        /* opacity: 0.8; */
+        top: 0;
+        left: -100%;
+        /* display: none; */
+        padding: 20px;
+        box-sizing: border-box;
+        transition: all ease-in-out 0.3s;
+    }
+    .total_header ul li a {
+        display: block;
+        margin: 13px 0;
+    }
+    .total_header ul li{
+        margin: 0 -50px;
+    }
+    .total_header ul.active{
+        left: 0;
+        display: block;
+        text-align: center;
+    }
+    .icon_display {
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .menu_nav_col  {
+        border-bottom: none;
+        position: fixed !important;
+        left: -100% !important;
+        width: 100% !important;
+        background: rgba(0, 0, 0, 0.973);
+        opacity: 0.8;
+        height: 100%;
+        z-index: 100;
+        transition: all ease-in-out 600ms;
+    }
+    header .total_header ul li a {
+        font-size: 19px;
+        color: #ffffff !important;
+    }
+    header .total_header {
+        margin: 0 10px;
+    }
+    .time_sec {
+        top: 41%;
+        left: 3%;
+    }
+    .time_part p {
+        font-size: 12px;
+    }
+    .time_part  span {
+        font-size: 16px;
+    }
+    .prdct_div {
+        width: 280px;
+    }
+    .product_part .total_prdct_part {
+        row-gap: 40px;
+    }
+    .img-select {
+        flex-direction: row-reverse !important;
+    }
+}
+@media(max-width:821px){
+    .total_in_touch .svg_icon {
+        column-gap: 15px;
+    }
+    .total_div {
+        padding: 30px 30px;
+    }
+    .product_part {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .scroll_part {
+        width: 100%;
+    }
+    .total_div {
+        flex-direction: column;
+    }
+    
+}
+@media(max-width:768px){
+    .total_follow_div {
+        row-gap: 20px;
+        flex-direction: column;
+    }
+    .total_follow_div .same_div {
+        justify-content: center;
+        width: 100%;
+    }
+    .total_in_touch {
+        padding: 7px 24px;
+    }
+    footer .total_footer_page {
+        flex-direction: column;
+    }
+    footer .total_footer_page .same_div {
+        width: 100%;
+    }
+    .map_section {
+        padding: 30px 10px;
+    }
+    .time_sec_insta {
+        top: 43%;
+        left: 5%;
+    }
+    .carousel-inner .carousel-item>div {
+        display: block !important;
+    }
+    .slider_text_part p {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .qoute_part p {
+        font-size: 10px;
+    }
+    .name p {
+        font-size: 10px;
+    }
+    .slider_text_part h3 {
+        font-size: 12px;
+        
+    }
+    .total_div_sec {
+        align-items: baseline;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .stories_part {
+        width: 100%;
+    }
+    .haldi_pic_total a .text_div h5 {
+        font-size: 14px;
+    }
+    .total_div_two {
+        padding: 0 30px;
+    }
+}
+@media(max-width:700px){
+    .prdct_div_two {
+        width: 100%;
+    }
+    .mid_apart .total_div .same_div {
+        width: 100%;
+    }
+    .mid_apart .total_div .same_div .mid_letter_div {
+        left: 20%;
+        bottom: 18%;
+    }
+    .time_sec {
+        top: 56%;
+        left: 27%;
+    }
+    .total_late_blog .total_blog .same_div .lower_text_div {
+        bottom: -32%;
+        left: 5%;
+    }
+    .total_late_blog .total_blog {
+        row-gap: 188px;
+    }
+    .total_late_blog .total_blog .same_div {
+        width: 100%;
+    }
+}
+@media(max-width:575px){
+    .mid_apart .total_div .same_div .mid_letter_div {
+        left: 11%;
+        bottom: 18%;
+    }
+    .total_in_touch {
+        align-items: center;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .total_in_touch .same_div {
+        width: 100%;
+        text-align: center;
+    }
+    .total_in_touch .group_div {
+        width: 100%;
+    }
+    .total_in_touch .svg_icon {
+        width: 100%;
+    }
+    footer {
+        padding: 40px 40px;
+    }
+    .total_follow_div {
+        padding: 30px 30px;
+    }
+    .total_late_blog .total_blog .same_div .lower_text_div {
+        bottom: -65%;
+    }
+    .prdct_div {
+        width: 100%;
+    }
+    .contact_forn_div {
+        flex-direction: column;
+    }
+    .contact_forn_div .same_div {
+        width: 100%;
+    }
+    .time_sec_insta {
+        top: 60%;
+        left: 22%;
+    }
+    .add_cart_line {
+        align-items: baseline !important;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .add_cart_btn2 {
+        padding: 5px 50px;
+    }
+    .add_to_div {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+@media(max-width:414px){
+    .total_div_two {
+        padding: 0 20px;
+    }
+    .mid_apart {
+        padding: 30px 16px;
+    }
+    .mid_apart .total_div .same_div .mid_letter_div {
+        width: 180px;
+    }
+    .mid_apart .total_div .same_div .mid_letter_div p {
+        font-size: 9px;
+    }
+    .mid_apart .total_div .same_div .mid_letter_div h5 {
+        font-size: 13px;
+    }
+    .mid_apart .total_div .same_div .mid_letter_div {
+        left: 12%;
+        bottom: 11%;
+    }
+    .total_late_blog {
+        padding: 30px 10px;
+    }
+    .time_sec_insta {
+        top: 47%;
+        left: 17%;
+    }
+    .total_div_insta {
+        padding: 35px 30px;
+    }
+}
